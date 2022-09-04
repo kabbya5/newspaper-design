@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylee.css">
     <!-- tailwindcss cde  -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- font-waespme  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
-<body class="bg-slate-100/60">
+<body class="bg-gray-200">
     <header>
 
         <div class="top-nav bg-black text-white">
@@ -40,7 +41,7 @@
             </nav>
         </div>
 
-        <div class="bottom-nav bg-white border">
+        <div class="bottom-nav bg-white lg:border">
             <div class="flex justify-between mx-2 md:mx-5">
                 <div class="flex flex-col lg:flex-row lg:items-center justify-between">
                     <div class="navbrand">
@@ -48,30 +49,194 @@
                             <img src="https://freepngimg.com/thumb/logo/85394-patrol-jeep-car-nissan-black-text.png" alt="" class="w-32 h-24">
                         </a>
                     </div>
-                    <div class="flex flex-col lg:flex-row  font-semibold">
-                        <a href="" class="uppercase ml-4 transition duration-300 hover:text-blue-600"> Amp demo</a>
-                                <a href="" class="uppercase ml-4 transition duration-300 hover:text-blue-600"> blog</a>
-                                <a href="" class="uppercase ml-4 transition duration-300 hover:text-blue-600"> forum</a>
-                                <a href="" class="uppercase ml-4 transition duration-300 hover:text-blue-600"> get soledad now</a>
+                    <div class="side-bar w-full  bg-black lg:static lg:bg-white">
+                        <div class="flex flex-col lg:inline font-semibold  text-white lg:text-slate-800">
+                            <a href="" class="uppercase ml-4 my-2 transition duration-300 hover:text-blue-600" > Amp demo</a>
+                                    <a href="" class="uppercase ml-4 my-2 transition duration-300 hover:text-blue-600"> blog</a>
+                                    <a href="" class="uppercase ml-4 my-2 transition duration-300 hover:text-blue-600"> forum</a>
+                                    <a href="" class="uppercase ml-4 my-2 transition duration-300 hover:text-blue-600"> get soledad now</a>
+                        </div>
                     </div>
+                    
                 </div>
             
-                <div class="pt-6"> 
+                <div class="pt-6 lg:hidden toggle-bar"> 
                     <a href="#"> <i class="fa-solid fa-bars fa-2x"></i></a>
                 </div>
             </div>
             
         </div>
-
     </header>
-    <div class="mx-2 lg:mx-3  lg:mx-auto lg:w-5/6  h-32">
+
+    <div class="mx-2 my-4 lg:my-8  lg:mx-auto lg:w-5/6 ">
+        <section class="hero text-center">
+            <div class="grid grid-cols-4 gap-2 lg:gap-4">
+                <div class="col-span-4  bg-white lg:col-span-2 lg:row-span-2">
+                    <div class="h-5/6">
+                        <img class="block object-cover object-center w-full h-full rounded-lg" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="">
+                    </div>
+                    
+                    <p class="text-lg font-bold mt-3">
+                        TECHNOLOGY or just getting some time away from home
+                    </p>
+                </div>
+
+                <div class="col-span-2  bg-white xl:col-span-1">
+                    <div class="w-32-h-32">
+                        <img class="block object-cover object-center w-full h-full rounded-lg" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="">
+                    </div>
+                    
+                    <p class="text-lg font-bold mt-3">
+                        TECHNOLOGY or just getting some time away from home
+                    </p>
+                </div>
+                <div class="col-span-2  bg-white xl:col-span-1">
+                    <div class="w-32-h-32">
+                        <img class="block object-cover object-center w-full h-full rounded-lg" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="">
+                    </div>
+                    
+                    <p class="text-lg font-bold mt-3">
+                        TECHNOLOGY or just getting some time away from home
+                    </p>
+                </div>
+                <div class="col-span-2 bg-white xl:col-span-1">
+                    <div class="w-32-h-32">
+                        <img class="block object-cover object-center w-full h-full rounded-lg" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="">
+                    </div>
+                    
+                    <p class="text-lg font-bold mt-3">
+                        TECHNOLOGY or just getting some time away from home
+                    </p>
+                </div>
+                <div class="col-span-2 bg-white xl:col-span-1">
+                    <div class="w-32-h-32">
+                        <img class="block object-cover object-center w-full h-full rounded-lg" src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="">
+                    </div>
+                    
+                    <p class="text-lg font-bold mt-3">
+                        TECHNOLOGY or just getting some time away from home
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="today-headline my-4 lg:my-8">
+            <div class="flex h-10 bg-white border ">
+                <div class="min-w-fit highlight relative bg-blue-800 text-white h-full flex items-center relative z-10">
+                    <p class="uppercase text-sm px-3 py-1 text-center"> News Highlignt </p>
+                </div>
+                <div class="flex justify-between w-full">
+                    <div class="ml-4 flex items-center relative w-full">
+                       <a href="#" class="headline truncate change w-56 md:w-full hover:text-blue-500"> 
+                            How to Spend the Perfect Day on Croatia’s Most Magical Island How to Spend Most Magical
+                        </a>
+                        <a href="#" class="headline truncate w-56 md:w-full hover:text-blue-500 transition duration-300"> 
+                            TECHNOLOGY or just getting some time away from home
+                        </a>
+                        <a href="#" class="headline truncate w-56 md:w-full hover:text-blue-500 transition duration-300"> 
+                            How to Spend the Perfect Day on Croatia’s Most Magical Island How to Spend Most Magical
+                        </a>
+                        <a href="#" class="headline truncate w-56 md:w-full hover:text-blue-500 transition duration-300"> 
+                            TECHNOLOGY or just getting some time away from home
+                        </a>
+                        <a href="#" class="headline truncate w-56 md:w-full hover:text-blue-500 transition duration-300"> 
+                            The addClass() method adds one or more class names to the selected elements.
+                        </a>
+                        <a href="#" class="headline truncate w-56 md:w-full hover:text-blue-500 transition duration-300"> 
+                            How to Spend the Perfect Day on Croatia’s Most Magical Island How to Spend Most Magical
+                        </a>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fa-solid fa-arrow-left mr-4 prev"></i>
+                        <i class="fa-solid fa-arrow-right next"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="category my-4 lg:my-8">
+            <div class="grid grid-cols-6 gap-2">
+                <div class="bg-white col-span-3 md:col-span-2 xl:col-span-1">
+                    <div class="h-full relative overflow-hidden">
+                        <img class="block object-cover boject-center w-full h-full 
+                            transition duration-300 hover:scale-[1.2]" 
+                            src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"  alt="">
+                        <p class="text-2xl font-bold absolute bottom-3 left-[50%] translate-x-[-50%]  z-10 text-white text-center drop-shadow-lg shadow-gray-400">
+                            TECHNOLOGY
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-white col-span-3 md:col-span-2 xl:col-span-1">
+                    <div class="h-full relative overflow-hidden">
+                        <img class="block object-cover boject-center w-full h-full 
+                            transition duration-300 -z-1 hover:scale-[1.2]" 
+                            src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"  alt="">
+                        <p class="text-2xl font-bold absolute bottom-3 left-[50%] translate-x-[-50%]  z-10 text-white text-center drop-shadow-lg shadow-gray-400">
+                            TECHNOLOGY
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-white col-span-3 md:col-span-2 xl:col-span-1">
+                    <div class="h-full relative overflow-hidden">
+                        <img class="block object-cover boject-center w-full h-full 
+                            transition duration-300 -z-1 hover:scale-[1.2]" 
+                            src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"  alt="">
+                        <p class="text-2xl font-bold absolute bottom-3 left-[50%] translate-x-[-50%]  z-10 text-white text-center drop-shadow-lg shadow-gray-400">
+                            TECHNOLOGY
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-white col-span-3 md:col-span-2 xl:col-span-1">
+                    <div class="h-full relative overflow-hidden">
+                        <img class="block object-cover boject-center w-full h-full 
+                            transition duration-300 -z-1 hover:scale-[1.2]" 
+                            src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"  alt="">
+                        <p class="text-2xl font-bold absolute bottom-3 left-[50%] translate-x-[-50%]  z-10 text-white text-center drop-shadow-lg shadow-gray-400">
+                            TECHNOLOGY
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-white col-span-3 md:col-span-2 xl:col-span-1">
+                    <div class="h-full relative overflow-hidden">
+                        <img class="block object-cover boject-center w-full h-full 
+                            transition duration-300 -z-1 hover:scale-[1.2]" 
+                            src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"  alt="">
+                        <p class="text-2xl font-bold absolute bottom-3 left-[50%] translate-x-[-50%]  z-10 text-white text-center drop-shadow-lg shadow-gray-400">
+                            TECHNOLOGY
+                        </p>
+                    </div>
+                </div>
+                <div class="bg-white col-span-3 md:col-span-2 xl:col-span-1">
+                    <div class="h-full relative overflow-hidden">
+                        <img class="block object-cover boject-center w-full h-full 
+                            transition duration-300 -z-1 hover:scale-[1.2]" 
+                            src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"  alt="">
+                        <p class="text-2xl font-bold absolute bottom-3 left-[50%] translate-x-[-50%]  z-10 text-white text-center drop-shadow-lg shadow-gray-400">
+                            TECHNOLOGY
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="lateslifeStyle">
+            <div class="flex">
+                <div class="w-full md:w-3/5 xl:w-3/4  bg-red-400 h-32">
+
+                </div>
+                <div class="w-0 md:w-2/5 xlg:w-1/4 bg-blue-400 h-32">
+                    
+                </div>
+            </div>
+        </section>
 
     </div>
 
 
-
-    
-    
+    <!-- // jquery cdn  -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>          
+    <script src="index.js"></script>
 
 </body>
 </html>
