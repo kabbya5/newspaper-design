@@ -9,14 +9,25 @@
 }
 .highlight:before{
     position:absolute;
-    top:o;
+    top:0;
     right:-12px;
     content: '';
     z-index: -1;
-
     border-top: 20px solid transparent;
 	border-left: 40px solid rgb(30 64 175);;
 	border-bottom: 20px solid transparent;
+}
+.category-link:before{
+    position:absolute;
+    content: '';
+    top:0;
+    right: -15px;
+    background: white;
+    width: 15%;
+    height: 88%;
+    transform: rotate(45deg);
+    
+    
 }
 
 @media only screen and (max-width: 1024px) {
